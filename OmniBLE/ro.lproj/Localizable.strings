@@ -190,7 +190,7 @@
    Text for confidence reminders navigation link */
 "Confidence Reminders" = "Mementouri de confimare";
 
-/* No comment provided by engineer. */
+/* Help text for BeepPreferenceSelectionView */
 "Confidence reminders are beeps from the pod which can be used to acknowledge selected commands." = "Memento-urile de confirmare sunt semnale sonore de la Pod care pot fi folosite pentru confirmarea comenzilor selectate.";
 
 /* Description for BeepPreference.manualCommands */

@@ -140,7 +140,7 @@
 "Insulin Delivery" = "Insulin Delivery";
 
 /* The format string for Internal pod fault (1: The fault code value) */
-"Internal pod fault %1$03d" = "Internal pod fault %1$03d";
+"Internal pod fault %1$03d" = "תקלת פוד %1$03d";
 
 /* The format string describing a bolus that was interrupted. (1: The amount delivered)(2: The amount scheduled)(3: Start time of the dose)(4: duration)(5: scheduled certainty) */
 "InterruptedBolus: %1$@ U (%2$@ U scheduled) %3$@ %4$@ %5$@" = "InterruptedBolus: %1$@ U (%2$@ U scheduled) %3$@ %4$@ %5$@";
@@ -332,7 +332,7 @@
 "Unfinished deactivation" = "השבתה לא הושלמה";
 
 /* The format string for Unknown pod fault (1: The fault code value) */
-"Unknown pod fault %1$03d" = "Unknown pod fault %1$03d";
+"Unknown pod fault %1$03d" = "תקלת פוד לא ידועה %1$03d";
 
 /* Recovery suggestion when operation could not be completed due to existing bolus in progress */
 "Wait for existing bolus to finish, or cancel bolus" = "Wait for existing bolus to finish, or cancel bolus";

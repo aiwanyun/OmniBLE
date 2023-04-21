@@ -129,7 +129,7 @@
 /* Error message when command is rejected because an unacknowledged command is pending. */
 "Communication issue: Unacknowledged command pending." = "Problém s komunikáciou: Čaká sa na potvrdenie príkazu.";
 
-/* No comment provided by engineer. */
+/* Help text for BeepPreferenceSelectionView */
 "Confidence reminders are beeps from the pod which can be used to acknowledge selected commands." = "Potvrdzovacie pripomienky sú pípnutia z podu, ktoré možno použiť pre potvrdenie vybraných príkazov.";
 
 /* Description for BeepPreference.manualCommands */

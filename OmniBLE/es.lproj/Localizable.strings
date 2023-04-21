@@ -190,7 +190,7 @@
    Text for confidence reminders navigation link */
 "Confidence Reminders" = "Recordatorios de confianza";
 
-/* No comment provided by engineer. */
+/* Help text for BeepPreferenceSelectionView */
 "Confidence reminders are beeps from the pod which can be used to acknowledge selected commands." = "Los recordatorios de confianza son pitidos que emite el Pod que pueden utilizarse para tener certeza de que se han seleccionado comandos.";
 
 /* Description for BeepPreference.manualCommands */

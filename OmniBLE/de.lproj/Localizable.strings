@@ -5,7 +5,7 @@
 "—" = "—";
 
 /* Format string for last status date on pod details screen */
-"%@ ago" = "%@ vor";
+"%@ ago" = "vor %@";
 
 /* Unit format string for an RSSI value in decibles */
 "%@ dB" = "%@ dB";
@@ -17,7 +17,7 @@
 "%@+ U" = "%@+ IE";
 
 /* Format string for reservoir volume. (1: The localized volume) */
-"%@U" = "%@U";
+"%@U" = "%@ IE";
 
 /* Summary string for temporary basal rate configuration page */
 "%1$@ for %2$@" = "%1$@ für %2$@";
@@ -91,7 +91,7 @@
 "Basal initialized" = "Basal initialisiert";
 
 /* Pod state when running below fifty units */
-"Below 50 units" = "Weniger als 50 Einheiten";
+"Below 50 units" = "Weniger als 50 IE";
 
 /* description label for ble firmware version pod details row */
 "BLE Firmware Version" = "BLE Firmware Version";
@@ -190,7 +190,7 @@
    Text for confidence reminders navigation link */
 "Confidence Reminders" = "Sicherheitserinnerung";
 
-/* No comment provided by engineer. */
+/* Help text for BeepPreferenceSelectionView */
 "Confidence reminders are beeps from the pod which can be used to acknowledge selected commands." = "Vertrauenserinnerungen sind Pieptöne vom Pod, die verwendet werden können, um ausgewählte Befehle zu bestätigen.";
 
 /* Description for BeepPreference.manualCommands */
