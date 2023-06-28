@@ -27,9 +27,9 @@ public struct UnfinalizedDose: RawRepresentable, Equatable, CustomStringConverti
         public var localizedDescription: String {
             switch self {
             case .certain:
-                return LocalizedString("Certain", comment: "String describing a dose that was certainly scheduled")
+                return LocalizedString("肯定", comment: "String describing a dose that was certainly scheduled")
             case .uncertain:
-                return LocalizedString("Uncertain", comment: "String describing a dose that was possibly scheduled")
+                return LocalizedString("不确定", comment: "String describing a dose that was possibly scheduled")
             }
         }
     }
@@ -202,13 +202,13 @@ public struct UnfinalizedDose: RawRepresentable, Equatable, CustomStringConverti
     public var eventTitle: String {
         switch doseType {
         case .bolus:
-            return NSLocalizedString("Bolus", comment: "Pump Event title for UnfinalizedDose with doseType of .bolus")
+            return NSLocalizedString("推注", comment: "Pump Event title for UnfinalizedDose with doseType of .bolus")
         case .resume:
-            return NSLocalizedString("Resume", comment: "Pump Event title for UnfinalizedDose with doseType of .resume")
+            return NSLocalizedString("恢复", comment: "Pump Event title for UnfinalizedDose with doseType of .resume")
         case .suspend:
-            return NSLocalizedString("Suspend", comment: "Pump Event title for UnfinalizedDose with doseType of .suspend")
+            return NSLocalizedString("暂停", comment: "Pump Event title for UnfinalizedDose with doseType of .suspend")
         case .tempBasal:
-            return NSLocalizedString("Temp Basal", comment: "Pump Event title for UnfinalizedDose with doseType of .tempBasal")
+            return NSLocalizedString("温度基", comment: "Pump Event title for UnfinalizedDose with doseType of .tempBasal")
         }
     }
 
