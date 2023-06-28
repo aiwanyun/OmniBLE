@@ -128,7 +128,7 @@ struct BasalStateSwiftUIViewPreviewWrapper: View {
             }) {
                 Text("切换标志")
             }
-            Text("Percent = \(percent)")
+            Text("百分比 = \(percent)")
         }
     }
 }
