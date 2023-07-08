@@ -202,7 +202,7 @@ public struct UnfinalizedDose: RawRepresentable, Equatable, CustomStringConverti
     public var eventTitle: String {
         switch doseType {
         case .bolus:
-            return NSLocalizedString("推注", comment: "Pump Event title for UnfinalizedDose with doseType of .bolus")
+            return NSLocalizedString("大剂量", comment: "Pump Event title for UnfinalizedDose with doseType of .bolus")
         case .resume:
             return NSLocalizedString("恢复", comment: "Pump Event title for UnfinalizedDose with doseType of .resume")
         case .suspend:
