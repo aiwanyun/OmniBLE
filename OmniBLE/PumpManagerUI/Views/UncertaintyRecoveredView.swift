@@ -16,7 +16,7 @@ struct UncertaintyRecoveredView: View {
     
     var body: some View {
         GuidePage(content: {
-            Text("\(self.appName) has recovered communication with the pod on your body.\n\nInsulin delivery records have been updated and should match what has actually been delivered.\n\nYou may continue to use \(self.appName) normally now.")
+            Text(String(format: LocalizedString("%1$@ has recovered communication with the pod on your body.\n\nInsulin delivery records have been updated and should match what has actually been delivered.\n\nYou may continue to use %2$@ normally now.", comment: "Text body for page showing insulin uncertainty has been recovered (1: appName) (2: appName)"), self.appName, self.appName))
                 .padding([.top, .bottom])
         }) {
             VStack {
@@ -29,7 +29,7 @@ struct UncertaintyRecoveredView: View {
                 }
             }
         }
-        .navigationBarTitle(Text("通讯恢复了"), displayMode: .large)
+        .navigationBarTitle(LocalizedString("通讯恢复了", comment: "navigation bar title for comms recovered"), displayMode: .large)
         .navigationBarBackButtonHidden(true)
     }    
 }

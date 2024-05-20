@@ -31,7 +31,7 @@ extension BluetoothManagerError: LocalizedError {
             case .unknown:
                 return LocalizedString("由于未知原因，蓝牙无法获得。", comment: "Error description for BluetoothManagerError.bluetoothNotAvailable(.unknown)")
             default:
-                return String(format: LocalizedString("蓝牙不可用：%1$@", comment: "The format string for BluetoothManagerError.bluetoothNotAvailable for unknown state (1: the unknown state)"), String(describing: state))
+                return String(format: LocalizedString("Bluetooth is unavailable: %1$@", comment: "The format string for BluetoothManagerError.bluetoothNotAvailable for unknown state (1: the unknown state)"), String(describing: state))
             }
         }
     }

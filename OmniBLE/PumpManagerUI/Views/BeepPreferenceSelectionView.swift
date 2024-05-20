@@ -38,7 +38,7 @@ struct BeepPreferenceSelectionView: View {
         VStack {
             List {
                 Section {
-                    Text(LocalizedString("置信提醒是可以用来确认选定命令的POD的哔哔声。", comment: "Help text for BeepPreferenceSelectionView")).fixedSize(horizontal: false, vertical: true)
+                    Text(LocalizedString("置信提醒是来自POD的哔哔声，可用于确认POD时所选命令。", comment: "Help text for BeepPreferenceSelectionView")).fixedSize(horizontal: false, vertical: true)
                         .padding(.vertical, 10)
                 }
 
@@ -109,15 +109,15 @@ struct BeepPreferenceSelectionView: View {
 
     private var cancelButton: some View {
         Button(action: { self.presentationMode.wrappedValue.dismiss() } ) {
-            Text(LocalizedString("取消", comment: "Button title for cancelling low reservoir reminder edit"))
+            Text(LocalizedString("取消", comment: "Button title for cancelling confidence reminders edit"))
         }
     }
 
     var saveButtonText: String {
         if saving {
-            return LocalizedString("保存...", comment: "button title for saving low reservoir reminder while saving")
+            return LocalizedString("保存...", comment: "button title for saving confidence reminder while saving")
         } else {
-            return LocalizedString("节省", comment: "button title for saving low reservoir reminder")
+            return LocalizedString("保存", comment: "button title for saving confidence reminder")
         }
     }
 
@@ -134,7 +134,7 @@ struct BeepPreferenceSelectionView: View {
 
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct BeepPreferenceSelectionView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
             BeepPreferenceSelectionView(initialValue: .extended) { selectedValue, completion in
